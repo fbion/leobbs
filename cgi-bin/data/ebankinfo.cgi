@@ -1,0 +1,21 @@
+# EbankMX For LB5000XP is Powered By 94Cool.Net BigJim
+$bankopen = "on";
+$bankname = "雷傲超级论坛银行";
+$bankmanager = "所有坛主";
+$bankmessage = "雷傲超级论坛银行感谢您的惠顾！本行财力雄厚，决无倒闭之忧，敬请放心。";
+$banksaverate = 0.0088;
+$bankrateuse = "meili";
+$banktransneed = 1000;
+$banktransrate = 0.1;
+$bankpostrate = 0.2;
+$bankallowloan = "yes";
+$bankloanmaxdays = 7;
+$bankloanrate = 0.0188;
+$bankrateloan = 1;
+$bankmaxdeal = 500000;
+$bankmindeal = 10;
+$bankmaxdisplay = 10;
+$bankmaxdaydo = 5;
+$banklogpriviate = 6;
+$bankadminallow = "allad";
+1;

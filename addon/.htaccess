@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^topic-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-(.*)\.htm$ topic\.cgi\?forum=$1&topic=$2&start=$3&show=$4&replynum=$5
+RewriteRule ^leobbs\.htm$ leobbs\.cgi
+RewriteRule ^leobbs-(.+)\.htm$ leobbs\.cgi?action=$1
+RewriteRule ^announcements\.htm$ announcements\.cgi
+RewriteRule ^announcements-(.+)\.htm$ announcements\.cgi?forum=$1
+RewriteRule ^profile-(.*)\.htm$ profile\.cgi\?action=show&member=$1
+RewriteRule ^view-([0-9]+)-([0-9]+)\.htm$ view\.cgi\?forum=$1&topic=$2
+RewriteRule ^forums-([0-9]+)-([0-9]+)\.htm$ forums\.cgi\?forum=$1&show=$2
+RewriteRule ^printpage-([0-9]+)-([0-9]+)\.htm$ printpage\.cgi\?forum=$1&topic=$2
+</IfModule>

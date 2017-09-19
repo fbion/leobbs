@@ -1,0 +1,10 @@
+$admin_user = '';
+$plugname = 'ÂÛÌ³ĞéÄâĞÎÏó';
+$close_plug = 'close';
+$samnum = '5';
+$lognum = '25';
+$show_pagen = '9';
+$row_num = '3';
+$c_width = '33%';
+$td = 'td align=center';
+1;
